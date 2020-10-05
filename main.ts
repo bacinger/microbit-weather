@@ -12,7 +12,7 @@ input.onButtonPressed(Button.B, function () {
 })
 AQbit.putPMSInPassiveMode()
 basic.showIcon(IconNames.Tortoise)
-AQbit.connectToWiFiNetwork("Marvin", "Password")
+AQbit.connectToWiFiNetwork("Network", "Password")
 let Tsr = 0
 let Hsr = 0
 let Psr = 0
